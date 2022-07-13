@@ -10,6 +10,7 @@ a.style.backgroundImage = 'linear-gradient(90deg,red, yellow)';
 //task2
 document.getElementsByClassName('card')[0].style.border = "5px solid yellow";
 document.getElementsByClassName('card')[0].style.backgroundColor = 'red'
+document.getElementsByClassName('card')[0].style.width = '18rem';
 const nodeUl = document.createElement("ul");
 nodeUl.innerHTML = '<li>Ruby</li><li>Jakov</li> <li>26</li><li>Netanya</li>'
 b.appendChild(nodeUl);
@@ -50,6 +51,7 @@ cc.appendChild(details);
 
 //task4
 d.classList.add("bg-danger");
+
 
 
 
